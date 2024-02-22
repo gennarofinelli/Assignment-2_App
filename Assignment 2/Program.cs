@@ -10,15 +10,34 @@ namespace Assignment_2
     {
         static void Main(string[] args)
         {
-            Account ac = new Account("7431592", 284.97m, "Dumitrescu Tiving", "Craig Justin Vinoya");
+            Console.WriteLine("Please enter an account number: ");
+            string accNum = Console.ReadLine();
+            Console.WriteLine("Please enter an account balance: ");
+            decimal accBal = Decimal.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter your last name: ");
+            string lName = Console.ReadLine();
+            Console.WriteLine("Please enter your first name: ");
+            string fName = Console.ReadLine();
+            Console.WriteLine("Please enter interest rate: ");
+            decimal interestRate = Decimal.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter transaction fee: ");
+            decimal transactionFee = Decimal.Parse(Console.ReadLine());
 
-            ac.DisplayAccount();
+            SavingsAccount s = new SavingsAccount(accNum, accBal, lName, fName, interestRate);
+            s.DisplayAccount();
 
-            Console.WriteLine();
+            decimal interest = s.calculateInterest();
+            s.Credit(interest);
+            s.DisplayAccount();
 
-            SavingsAccount sAC = new SavingsAccount("8753124", 537.68m, "Dumitrescu Tiving", "Craig Justin Vinoya", 0.0413m);
+            CheckingAccount c = new CheckingAccount(accNum, accBal, lName, fName, transactionFee);
+            c.DisplayAccount();
 
-            sAC.DisplayAccount();
+            c.Credit(50);
+            c.DisplayAccount();
+
+            c.Debit(100);
+            c.DisplayAccount();
         }
     }
 }

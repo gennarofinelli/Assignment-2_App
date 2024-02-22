@@ -71,7 +71,7 @@ namespace Assignment_2
                 firstName = value;
             }
         }
-        public virtual void Credit(int value)
+        public virtual void Credit(decimal value)
         {
             if (value < 0)
             {
@@ -82,7 +82,7 @@ namespace Assignment_2
                 accBal = accBal + value;
             }
         }
-        public virtual bool Debit(int value)
+        public virtual bool Debit(decimal value)
         {
             if (value < 0)
             {
@@ -103,7 +103,7 @@ namespace Assignment_2
             drawLine();
 
             Console.WriteLine($"| {"Account Number", -15} | {AccNum, 26} |");
-            Console.WriteLine($"| {"Account Balance", -15} | {"$" + AccBal, 26} |");
+            Console.WriteLine($"| {"Account Balance", -15} | {"$" + AccBal.ToString("N2"), 26} |");
             Console.WriteLine($"| {"Last Name", -15} | {LastName, -26} |");
             Console.WriteLine($"| {"First Name",-15} | {FirstName,-26} |");
             drawLine();

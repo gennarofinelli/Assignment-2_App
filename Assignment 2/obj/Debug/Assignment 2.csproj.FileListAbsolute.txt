@@ -5,3 +5,10 @@ C:\Users\2268017\source\repos\Assignment 2\Assignment 2\obj\Debug\Assignment 2.c
 C:\Users\2268017\source\repos\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.CoreCompileInputs.cache
 C:\Users\2268017\source\repos\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
 C:\Users\2268017\source\repos\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\obj\Debug\Assignment 2.csproj.AssemblyReference.cache
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\obj\Debug\Assignment 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\obj\Debug\Assignment 2.csproj.CoreCompileInputs.cache
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\obj\Debug\Assignment 2.exe
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\obj\Debug\Assignment 2.pdb
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\bin\Debug\Assignment 2.exe
+C:\Users\2268017\Desktop\Assignment-2_App\Assignment 2\bin\Debug\Assignment 2.pdb
